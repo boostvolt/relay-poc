@@ -1,5 +1,5 @@
 /**
- * @generated SignedSource<<2093ffba20c72c9f4bbc53d3b657bed8>>
+ * @generated SignedSource<<0c6344d7120272f9e451b75bc957e1f4>>
  * @lightSyntaxTransform
  * @nogrep
  */
@@ -11,6 +11,7 @@
 import { Fragment, ReaderFragment } from 'relay-runtime';
 import { FragmentRefs } from "relay-runtime";
 export type PosterBylineFragment$data = {
+  readonly id: string;
   readonly name: string | null;
   readonly profilePicture: {
     readonly " $fragmentSpreads": FragmentRefs<"ImageFragment">;
@@ -28,6 +29,13 @@ const node: ReaderFragment = {
   "metadata": null,
   "name": "PosterBylineFragment",
   "selections": [
+    {
+      "alias": null,
+      "args": null,
+      "kind": "ScalarField",
+      "name": "id",
+      "storageKey": null
+    },
     {
       "alias": null,
       "args": null,
@@ -62,6 +70,6 @@ const node: ReaderFragment = {
   "abstractKey": "__isActor"
 };
 
-(node as any).hash = "1c29099ac0243bf3fd6c94bb2801dd72";
+(node as any).hash = "46edc1fc1390c518f795273259d6d633";
 
 export default node;
