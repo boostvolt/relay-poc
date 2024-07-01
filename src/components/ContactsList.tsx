@@ -1,6 +1,6 @@
 import * as React from "react";
 import { graphql } from "relay-runtime";
-import { useFragment, useRefetchableFragment } from "react-relay";
+import { useRefetchableFragment } from "react-relay";
 import type { ContactsListFragment$key } from "./__generated__/ContactsListFragment.graphql";
 import Card from "./Card";
 import ContactRow from "./ContactRow";

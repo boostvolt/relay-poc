@@ -1,5 +1,5 @@
 import * as React from "react";
-import { useLazyLoadQuery, useFragment, usePreloadedQuery } from "react-relay";
+import { useFragment, usePreloadedQuery } from "react-relay";
 import { graphql } from "relay-runtime";
 import Image from "./Image";
 import Timestamp from "./Timestamp";
